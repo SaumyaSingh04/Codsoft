@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header .social a {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.hero {
+    position: relative;
+    background: url('path/to/hero-image.jpg') no-repeat center center/cover;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.appointment-form {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.appointment-form h2 {
+    margin: 0 0 10px;
+}
+
+.appointment-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.appointment-form button {
+    padding: 10px;
+    background: #ff007b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h2 {
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.hero-text .btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.services {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.services p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
