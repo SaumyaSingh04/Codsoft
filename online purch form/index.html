@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Purchase Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+ <h2><u>Online Purchase Form</u></h2>
+ <br>
+ <form action="#">
+ <div class="personal-info">
+ <h3><u>Personal Information</u></h3>
+ <br>
+ <div class="form-group">
+ <label for="name">Name:</label>
+ <input type="text" id="name" required>
+ </div>
+ <div class="form-group">
+ <label for="email">Email ID *:</label>
+ <input type="email" id="email" required>
+ </div>
+ <div class="form-group">
+ <label for="mobile">Mobile No. *:</label>
+ <input type="tel" id="mobile" required>
+ </div>
+ <div class="form-group">
+ <label for="gender"></label>
+ <label for="male">Male
+ <input type="radio" name="gender" id="male" required></label>
+ <label for="female">Female
+ <input type="radio" name="gender" id="female" required>
+ </label>
+ </div>
+ </div>
+ <hr>
+ <div class="delivery-details">
+ <h3><u>Delivery Details</u></h3>
+ <br>
+ <div class="form-group">
+ <label for="country">Country *:</label>
+ <select id="country" required>
+ <option value="india">India</option>
+ </select>
+ </div>
+ <div class="form-group">
+ <label for="zip">Zip Code *:</label>
+ <input type="text" id="zip" required>
+ </div>
+ <div class="form-group">
+ <label for="address">Address *:</label>
+ <textarea id="address" required></textarea>
+ </div>
+ </div>
+ <hr>
+ <div class="card-details">
+ <h3><u>Card Details</u></h3>
+ <br>
+ <div class="form-group">
+ <label for="card-type">Card Type *:</label>
+
+ <label for="debit-card">Debit Card</label>
+ <input type="radio" name="card-type" id="debit-card" required>
+ <label for="credit-card">Credit Card</label>
+ <input type="radio" name="card-type" id="credit-card" required>
+ </div>
+
+ <div class="form-group">
+ <label for="card-number">Card Number *:</label>
+ <input type="text" id="card-number" required>
+ </div>
+ <div class="form-group">
+ <label for="card-name">Name on Card:</label>
+ <input type="text" id="card-name">
+ </div>
+ </div>
+ <button type="submit">Submit</button>
+ </form>
+ </div>
+</body>
+</html>
